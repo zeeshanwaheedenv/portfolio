@@ -1,0 +1,77 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 { font-size: 3rem; }
+.hero p { margin-top: 10px; font-size: 1.5rem; }
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0077ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.section h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Lists */
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skills-list li {
+  background: #0077ff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+/* Contact Form */
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  padding: 10px 20px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #f3f3f3;
+  margin-top: 40px;
+}
